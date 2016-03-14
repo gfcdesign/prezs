@@ -1,0 +1,271 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf110
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11940\viewh7800\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Panneau 1\
+\
+XML les portes de l\'92adaptation automatis\'e9e \
+Mots cl\'e9s : Accessibilit\'e9, adaptation, livre num\'e9rique, \'e9dition \
+W3C, DAISY, CFPSAA. \
+\
+Panneau 2\
+ADAPTATION SCOLAIRE EN MILIEU ORDINAIRE ADAPTATION SCOLAIRE EN MILIEU ORDINAIRE \
+Gauti\'e8r Chomel Adaptateur / Transcripteur SAAAIS Gard et H\'e9rault \
+F\'e9d\'e9ration des Aveugles et Amblyopes de France Languedoc-Roussillon \
+\
+Panneau 3\
+QUE FAISONS NOUS ? \
+Nous adaptons des ouvrages scolaires pour des enfants scolaris\'e9s en milieu ordinaire. \
+Les adaptations peuvent \'eatre en format braille, tactiles, agrandis papier, gros caract\'e8res ou num\'e9rique. \
+Nous adaptons \'e9galement des cartes, des sch\'e9mas, des plans, des jeux, des outils p\'e9dagogiques, du mat\'e9riel scolaire, et tout ce qui peut aider les \'e9l\'e8ves \'e0 mener une scolarit\'e9 ordinaire. \
+Nous b\'e9n\'e9ficions de l\'92agr\'e9ment exception handicap niveau 2 \
+\
+Panneau 4\
+COMMENT FAISONS NOUS ? \
+ORIGINAL BNF ou SCAN\
+travaill\'e9 avec acrobat pour une sortie PDF\
+travaill\'e9 avec indesign pour une sortie papier \
+travaill\'e9 avec un \'e9diteur de texte pour une sortie braille\
+(flux manuels ou semi automatiques) \
+\page Panneau 5\
+COMMENT FAISONS NOUS ? COMME-CI \
+ORIGINAL PDF / FLUX DE TRAVAIL acrobat et  automator  / ADAPTATION PDF accessible\
+\page Panneau 6\
+COMMENT FAISONS NOUS ? COMME-\'c7A \
+ORIGINAL papier / FLUX DE TRAVAIL Scan OCR traitement de texte  / ADAPTATION BRAILLE Papier \
+\page Panneau 7\
+COMMENT FAISONS NOUS ? ou encore comme cel\'e0 \
+ORIGINAL PDF   FLUX DE TRAVAIL acrobat et  INDESIGN / ADAPTATION impression gros carat\'e9res \
+\page Panneau 8\
+COMMENT FAISONS NOUS ? PR\'c9CISEMENT ? \
+(le sch\'e9ma des flux de travail devient illisible, car il y\'92a trop de chemins pour aller de l\'92original vers l\'92adaptation\
+\
+Panneau 9\
+MAIS DES FOIS ... \
+ORIGINAL XML / FLUX DE TRAVAIL ??? \
+\
+Panneau 10\
+XML KESAKO ? \
+XML = eXtensible Markup Language \
+Language de balise extensible \
+un format simple et tr\'e9s flexible destin\'e9 \'e0 l\'92\'e9change d\'92informations entre diff\'e9rents syst\'e9mes \
+\
+un format facile \'e0 lire pour l\'92humain comme pour les machines \
+Plusieurs languages sp\'e9cifiques utilisent une base XML, ce qui les rends interop\'e9rants \
+\
+Panneau 11\page XML : \
+UN FORMAT DE FICHIER PIVOT QUI PERMET DE NOMBREUSES MODIFICATIONS DONC ADAPTATIONS. \
+\
+Panneau 12\
+EXEMPLE \
+<TITRE> Baj\'f2 el Volc\'e1n </TITRE> \
+<AUTEUR> Malcom Lowry </AUTEUR> \
+<PARAGRAPHE> Ante uno de estos valles, dominado \
+por volc\'e1nes, se extiende a dos mil metros \
+sobre el nivel del mar, la ciudad de Quau-\
+hn\'e1huac</PARAGRAPHE> \
+<CITATION> \'a1De cuantas maravillas / pueblan el \
+mundo, la mayor, el hombre. SOFOCLES,Ant\'edgo-\
+na</CITATION> \
+<IMAGE> Popocat\'e9petl.jpg<IMAGE> \
+<LEGENDE> El Popocat\'e9petl (en n\'e1huatl: popocatepetl, \
+\'91el cerro que humea\'92\'91popoca, humear; \
+tepetl, cerro\'92)? es un volc\'e1n activo localizado en el \
+centro de M\'e9xico.</LEGENDE> \
+\
+Panneau 13\
+EXEMPLE \
+boite 1 : XML\
+<TITRE> Baj\'f2 el Volc\'e1n </TITRE> \
+<AUTEUR> Malcom Lowry </AUTEUR> \
+<PARAGRAPHE> Ante uno de estos valles, dominado \
+por volc\'e1nes, se extiende a dos mil metros \
+sobre el nivel del mar, la ciudad de Quau-\
+hn\'e1huac</PARAGRAPHE> \
+<CITATION> \'a1De cuantas maravillas / pueblan el \
+mundo, la mayor, el hombre. SOFOCLES,Ant\'edgo-\
+na</CITATION> \
+<IMAGE> Popocat\'e9petl.jpg<IMAGE> \
+<LEGENDE> El Popocat\'e9petl (en n\'e1huatl: popocatepetl, \
+\'91el cerro que humea\'92\'91popoca, humear; \
+tepetl, cerro\'92)? es un volc\'e1n activo localizado en el \
+centro de M\'e9xico.</LEGENDE> \
+\
+boite 2 : XSL\
+TITRE : helvetica gras 22 \
+SOUS TITRE : helvetica gras 18 \
+PARAGRAPHE : helvetica gras 16 \
+CITATION : helvetica gras et italique 16 vert fonc\'e9 \
+IMAGE : afficher en plein \'e9cran \
+LEGENDE : helvetica gras et italique 16 \
+ou \
+TITRE : braille \
+SOUS TITRE : braille \
+PARAGRAPHE : braille \
+CITATION : braille \
+IMAGE : afficher l\'e9gende et description en braille \
+LEGENDE : braille \
+\
+boite 3 regroupe boites 1 et 2 : Logiciel sp\'e9cifique \
+boite 4 sortie automatique de logiciel sp\'e9cifique vers PDF papier braille audio EPUB3 etc... \
+\
+Panneau 14\
+ET POUR LES IMAGES ? \
+<IMAGE>popocateptl.jpg</IMAGE> \
+<LEGENDE>El Popocat\'e9petl (en n\'e1huatl: popocatepetl, \
+\'91el cerro que humea\'92\'91popoca, humear; tepetl, \
+cerro\'92)? es un volc\'e1n activo localizado en el centro de \
+M\'e9xico.<LEGENDE> \
+<DESCRIPTION_COURTE>Une photographie du Volcan \
+Popocat\'e9petl<DESCRIPTION_COURTE> \
+<DESCRIPTION_LONGUE>La photographie est au \
+format paysage, on y voit le volcan Popocat\'e9petl avce \
+ses pentes \'e0 45 degr\'e9s caract\'e9ristiques. Il est enneig\'e9 \
+et de la fum\'e9e s\'92\'e9chappe de son crat\'e9re. Le ciel est \
+bleu.<DESCRIPTION_LONGUE> \
+<TACTILE>popocateptl.stl</TACTILE> \
+illustrations : photo et fichier 3d + dossier contenant les deux et le XML\
+\page Panneau 15\
+ET POUR LES SCH\'c9MAS ? \
+SVG : \
+Le Scalable Vector Graphics (graphique vectoriel adaptable), est un format de donn\'e9es con\'e7u pour \
+d\'e9crire des ensembles \
+de graphiques \
+vectoriels et bas\'e9 sur \
+XML. \
+SVG est facile \'e0 modifier \
+ou \'e0 transformer, par \
+exemple en GCODE, \
+language des machines \
+outils ... \
+\page Panneau 16\
+ET POUR LES CARTES ? \
+SVG TOUJOURS ... \
+(illustration : une carte SVG, et le bout de code svn correspondant)\
+<?xml version=\'bb1.0\'bb encoding=\'bbUTF-8\'bb standalone=\'bbno\'bb?> \
+<svg \
+[...] \
+<path \
+style=\'bbfill:none;stroke:#000000;stroke-width:0.5\'bb \
+id=\'bbpath2906\'bb \
+d=\'bbM 146.893,318.1752 L 147.843,316.9872 L \
+148.912,318.8872 L 150.1,318.0552 L 150.219,318.0552 L \
+150.1,318.8872 L \
+[...] \
+\
+Panneau 17\
+ET POUR LES MATHS ? POUR LA CHIMIE ? \
+MathsML est un langage bas\'e9 sur XML \
+permettant l\'92affichage de symboles math\'e9matiques \
+Le Chemical Markup Language (CML) est un format pour les donn\'e9es chimiques. \
+Bas\'e9 sur du XML. \
+\
+Panneau 18\
+APPRENDRE \'c0 UTILISER XML ? \
+\
+Panneau 19\
+NOUS UTILISONS D\'c9JA XML \
+(illustration page de t\'e9l\'e9chargement BNFA)\page \
+\
+NOUS UTILISONS D\'c9JA XML NOUS UTILISONS D\'c9JA XML \
+Les fichiers DOCX sont des fichiers XML \
+(illustration DOCX d\'e9zipp\'e9)\
+\
+Panneau 20\
+XML EST RECOMMAND\'c9 \
+Le World Wide Web Consortium, abr\'e9g\'e9 par le sigle W3C, est un organisme de standardisation \
+\'e0 but non lucratif, fond\'e9 en octobre \
+1994 charg\'e9 de promouvoir \
+la compatibilit\'e9 des technologies \
+du World Wide Web telles \
+que HTML5, HTML, XHTML, XML, \
+RDF, SPARQL, CSS, XSL, PNG, SVG \
+et SOAP. Fonctionnant comme \
+un consortium international, il \
+regroupe au 26 f\'e9vrier 2013, 383 \
+entreprises partenaires. \
+Wikipedia \
+\
+Panneau 21\
+XML EST RECOMMAND\'c9 \
+Le consortium DAISY a \'e9t\'e9 cr\'e9\'e9 en 1996 par \
+un groupe de biblioth\'e8ques sonores offrant \
+des services aux personnes d\'e9ficientes \
+visuelles. Le consortium DAISY vise un \
+monde o\'f9 les publics emp\'each\'e9s de lire \
+auront un \'e9gal acc\'e8s \'e0 la connaissance \
+et \'e0 l\'92information, sans d\'e9lai et sans co\'fbt \
+compl\'e9mentaire.  http://www.daisy.org/ \
+\
+Panneau 22\
+XML \'c9DITEURS \
+Les \'e9diteurs utilisent XML pour stocker leurs \
+ouvrages, ainsi que pour cr\'e9er leurs fichiers \
+num\'e9riques. \
+Dans le cadre de la loi exception handicap, la CFPSAA \
+demande \'e0 ce que les \'e9diteurs nous fournissent \
+ces fichiers que l\'92on peut adapter rapidement \
+et proprement. \
+Certains ont les outils, d\'92autres non. \
+\
+Panneau 23\
+Si l\'92on veut \'eatre en mesure de \
+traiter les fichiers \'e9diteurs, \
+il faut comprendre leurs \
+cha\'eenes de production et \'eatre \
+capables de s\'92y adapter \
+\
+Panneau 24\
+UN CHANTIER EN ATTENTE \
+\'ab On a pu constater des comp\'e9tences tr\'e8s vari\'e9es, certains \
+organismes pratiquant tel ou tel logiciel, d\'92autres transcrivant \
+des fichiers pdf, xml ou design, il appara\'eet n\'e9cessaire de \
+faire de la mutualisation des comp\'e9tences, de mettre en \
+place des formations crois\'e9es, le groupe Daisy serait un \
+endroit id\'e9al pour d\'e9velopper ces formations et \'e9changes, \
+les associations qui veulent d\'e9velopper l\'92acc\'e8s \'e0 la lecture \
+devraient y entrer. \'bb \
+COMPTE RENDU DE LA REUNION DU CONSEIL D\'92ADMINISTRATION \
+DE LA CFPSAA EN DATE DU 29 NOVEMBRE 2012 \
+\
+Panneau 25\
+Apprendre \'e0 g\'e9rer XML nous permet de traiter les fichiers \'e9diteurs. \
+Adapter en XML nous permet d\'92automatiser nos adaptations finales et de las partager \
+\page Panneau 26\
+DES OUTILS LIBRES EXISTENT DES OUTILS LIBRES EXISTENT \
+DAISY PIPELINE 2 \
+OBY / TOBY \
+CALIBRE \
+SIGIL \
+... \
+\
+Panneau 27\
+FORMER LES TECHNICIENS \
+Comprendre le XML \
+Formations sp\'e9cifiques aux logiciels DAISY (Oby, Toby, Pipeline) \
+Formations aux manipulations XML complexes (XPATH, XSL, XSL-FO) \
+ASSUMER UNE MONT\'c9E EN COMP\'c9TENCE \
+\page Panneau 28\
+MUTUALISATION MUTUALISATION \
+Participer au groupe de travail DAISY France \
+sous l\'92\'e9gide de la CFPSAA, \
+Pr\'e9sid\'e9 par Alex Bernier \
+representant@cfpsaa.daisy-france.org \
+\
+Panneau 29\
+RESSOURCES \
+w3c.org \
+daisy.org \
+mathmlcloud.org \
+xml-cml.org \
+www.cfpsaa.fr \
+\
+Panneau 30\
+Merci pour votre attention  \
+\'e0 vos questions \
+\
+\
+\page \
+}
